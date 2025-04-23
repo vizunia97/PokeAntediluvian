@@ -19,4 +19,6 @@ PokedexTypeSearchStrings:
 	db " DRAGON @"
 	db "  DARK  @"
 	db " STEEL  @"
+ db " LIGHT  @"
+ db " SOUND  @"
 	assert_table_length NUM_TYPES + 1
