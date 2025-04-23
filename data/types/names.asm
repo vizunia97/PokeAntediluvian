@@ -28,6 +28,8 @@ endr
 	dw Ice
 	dw Dragon
 	dw Dark
+ dw Light
+ dw Sound
 	assert_table_length TYPES_END
 
 Normal:    db "NORMAL@"
@@ -49,3 +51,5 @@ Ghost:     db "GHOST@"
 Steel:     db "STEEL@"
 Dragon:    db "DRAGON@"
 Dark:      db "DARK@"
+Light:     db "LIGHT@"
+Sound:     db "SOUND@"
