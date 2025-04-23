@@ -10,12 +10,14 @@ TypeMatchups:
 	db FIRE,         ROCK,         NOT_VERY_EFFECTIVE
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db FIRE,         STEEL,        SUPER_EFFECTIVE
+ db FIRE,         LIGHT,         NOT_VERY_EFFECTIVE
 	db WATER,        FIRE,         SUPER_EFFECTIVE
 	db WATER,        WATER,        NOT_VERY_EFFECTIVE
 	db WATER,        GRASS,        NOT_VERY_EFFECTIVE
 	db WATER,        GROUND,       SUPER_EFFECTIVE
 	db WATER,        ROCK,         SUPER_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
+ db WATER,        SOUND,        SUPER_EFFECTIVE
 	db ELECTRIC,     WATER,        SUPER_EFFECTIVE
 	db ELECTRIC,     ELECTRIC,     NOT_VERY_EFFECTIVE
 	db ELECTRIC,     GRASS,        NOT_VERY_EFFECTIVE
@@ -102,12 +104,16 @@ TypeMatchups:
 	db DARK,         GHOST,        SUPER_EFFECTIVE
 	db DARK,         DARK,         NOT_VERY_EFFECTIVE
 	db DARK,         STEEL,        NOT_VERY_EFFECTIVE
+ db DARK,         LIGHT,        SUPER_EFFECTIVE
 	db STEEL,        FIRE,         NOT_VERY_EFFECTIVE
 	db STEEL,        WATER,        NOT_VERY_EFFECTIVE
 	db STEEL,        ELECTRIC,     NOT_VERY_EFFECTIVE
 	db STEEL,        ICE,          SUPER_EFFECTIVE
 	db STEEL,        ROCK,         SUPER_EFFECTIVE
 	db STEEL,        STEEL,        NOT_VERY_EFFECTIVE
+ db LIGHT,        DARK,         SUPER_EFFECTIVE
+ db LIGHT,        GHOST,        SUPER_EFFECTIVE
+ db LIGHT,        DRAGON,       SUPER_EFFECTIVE
 
 	db -2 ; end (with Foresight)
 
